@@ -8,6 +8,7 @@ import {
   ScrollView,
 } from "react-native";
 import React, { useState, useCallback } from "react";
+import Icon from "react-native-vector-icons/FontAwesome";
 
 const COLORS = { Primary: "#12AA73", Secondary: "#BFDBD1", login: "#135B46" };
 
@@ -21,9 +22,12 @@ const Login = ({ navigation }) => {
           flex: 1,
           backgroundColor: COLORS.Primary,
           TextColor: "#fff",
-          alignItems: "center",
+          // alignItems: "center",
         }}
       >
+        <TouchableOpacity>
+          <Icon name="arrow-left" size={25} />
+        </TouchableOpacity>
         <Text
           style={{
             color: "#fff",
@@ -37,7 +41,7 @@ const Login = ({ navigation }) => {
         <View
           style={{
             width: "100%",
-            height: 100,
+            height: 200,
             backgroundColor: COLORS.Secondary,
             borderTopLeftRadius: 150,
             borderTopRightRadius: 150,
@@ -91,6 +95,9 @@ const Login = ({ navigation }) => {
             </TouchableOpacity>
           </View>
           <TouchableOpacity
+            onPress={() => {
+              navigation.navigate("Archieve");
+            }}
             style={{
               width: 250,
               height: 42,
