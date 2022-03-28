@@ -189,7 +189,7 @@ const JuniorUX = () => {
               fontWeight: "bold",
             }}
           >
-            Login
+            APPLY NOW
           </Text>
         </TouchableOpacity>
       </View>
