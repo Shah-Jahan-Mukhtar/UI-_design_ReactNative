@@ -150,7 +150,7 @@ const GetStarted = ({ navigation }) => {
               alignItems: "center",
               marginTop: 10,
               borderRadius: 20,
-              marginBottom: 30,
+              marginBottom: 11,
             }}
           >
             <Text
