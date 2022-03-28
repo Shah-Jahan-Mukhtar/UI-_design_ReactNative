@@ -22,12 +22,9 @@ const Login = ({ navigation }) => {
           flex: 1,
           backgroundColor: COLORS.Primary,
           TextColor: "#fff",
-          // alignItems: "center",
+          alignItems: "center",
         }}
       >
-        <TouchableOpacity>
-          <Icon name="arrow-left" size={25} />
-        </TouchableOpacity>
         <Text
           style={{
             color: "#fff",
