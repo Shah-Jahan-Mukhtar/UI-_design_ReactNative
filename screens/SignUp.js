@@ -141,7 +141,7 @@ const SignUp = ({ navigation }) => {
               <Text style={{ color: "#12AA73" }}>Smart Servicee Agreement</Text>
             </Text>
           </View>
-          <View style={{ flexDirection: "row", marginTop: 130 }}>
+          <View style={{ flexDirection: "row", marginTop: 85 }}>
             <Text style={{ color: "black", fontWeight: "bold" }}>
               Already have an account?
             </Text>
@@ -164,7 +164,7 @@ const SignUp = ({ navigation }) => {
               alignItems: "center",
               marginTop: 10,
               borderRadius: 20,
-              marginBottom: 30,
+              marginBottom: 10,
             }}
           >
             <Text
